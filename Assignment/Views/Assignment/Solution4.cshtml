@@ -1,0 +1,29 @@
+﻿
+
+<script>
+    DefaultAjaxCall();
+    var data = {
+        "class": "Comp Science",
+        "subject": [
+            "English",
+            "Math",
+            "Programming"
+        ]
+    }
+
+    function DefaultAjaxCall(){
+        $.ajax({
+            url: '/assignment/solution4',
+            type: 'POST', 
+            contentType: 'application/json', 
+            data: JSON.stringify(data),
+            success: function (response) {
+                alert(response);
+            },
+            error: function (xhr, status, error) {
+               alert('Error occurred:', status, error);
+            }
+        });
+
+    }
+</script>
