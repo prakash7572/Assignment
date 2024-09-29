@@ -1,13 +1,19 @@
-# Assignment Given by Company
+# Project Name
 
-## Overview
+A brief description of your project, its purpose, and what it does.
 
-This repository contains the code and documentation for the project titled "Assignment Given by Company." The purpose of this project is to briefly describe the project’s goals and objectives.
+## Technologies Used
 
+- **.NET Core**: Version (e.g., 8.0)
+- **C#**: Version (e.g., 8.0)
+- Other libraries or frameworks (e.g., Entity Framework, ASP.NET Core, etc.)
 
-## Installation
+### Prerequisites
 
-To get started with this project, follow these steps:
+- [.NET Core SDK](https://dotnet.microsoft.com/download) (version)
+- Other dependencies (if applicable)
+
+### Steps
 
 1. Clone the repository:
    ```bash
